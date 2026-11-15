@@ -1,2 +1,2 @@
 *.log
-temp/
+temp/.DS_Store
