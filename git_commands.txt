@@ -1,0 +1,71 @@
+mkdir GitAssignment
+Creates a new folder named GitAssignment.
+
+cd GitAssignment
+Moves into the GitAssignment directory.
+
+touch index.html about.html
+Creates two HTML files.
+
+git init
+Initializes a new Git repository.
+
+git branch -M main
+Renames the current branch to main.
+
+git status
+Displays the current repository status.
+
+git add .
+Stages all changes for the next commit.
+
+git add index.html
+Stages only index.html.
+
+git commit -m "Initial commit"
+Creates a commit with the staged files.
+
+git log --oneline
+Displays a short history of commits.
+
+git branch feature
+Creates a new branch named feature.
+
+git switch feature
+Switches to the feature branch.
+
+git switch main
+Switches back to the main branch.
+
+git merge feature
+Merges feature branch changes into main.
+
+git check-ignore -v temp/
+Checks which .gitignore rule ignores a file or folder.
+
+git restore --staged index.html
+Unstages index.html without discarding its changes.
+
+git restore index.html
+Discards unstaged changes in index.html.
+
+git revert HEAD
+Creates a new commit that reverses the latest commit.
+
+git remote add origin <repository-url>
+Connects the local repository to GitHub.
+
+git remote -v
+Displays configured remote repositories.
+
+git push -u origin main
+Pushes main to GitHub and sets upstream tracking.
+
+git push -u origin feature
+Pushes feature to GitHub and sets upstream tracking.
+
+git diff --cached
+Displays changes staged for commit.
+
+git status --ignored
+Displays repository status including ignored files.
